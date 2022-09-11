@@ -1,13 +1,6 @@
-import csv
-import os
+
 import pandas as pd
-import requests
-from requests.exceptions import HTTPError
-from bs4 import BeautifulSoup, SoupStrainer
-from numpy import NaN
-import pandas as pd
-import json
-import string
+
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
